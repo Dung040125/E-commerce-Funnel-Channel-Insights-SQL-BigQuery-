@@ -7,7 +7,6 @@ This project is an SQL hands-on exercise using the Google Analytics sample datas
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Data Visualization](#data-visualization)
 - [Results & Analysis (Insights)](#results--analysis-insights)
 - [Recommendations](#recommendations)
 - [Setup and Usage](#setup-and-usage)
@@ -45,65 +44,6 @@ In the e-commerce domain, understanding customer behavior and website performanc
     6.  Calculate the average amount spent per session by purchasers (7/2017)
     7.  Identify other products purchased alongside a specific product (7/2017)
     8.  Perform a cohort analysis of the customer journey: from product view to add-to-cart to purchase (1-3/2017)
-
-## Data Visualization
-(ảnh)
-
-1.  **Query 01: Monthly Overview (Jan, Feb, Mar 2017)**
-    *   **Suggested Chart Type:** Grouped Bar Chart.
-        *   X-axis: Month (201701, 201702, 201703).
-        *   Y-axis: Count.
-        *   Three groups of bars for each month: `total_visits`, `total_pageviews`, `total_transactions`.
-    *   **Purpose:** Visually compare key metrics across months.
-    *   `<!-- [Insert image: Chart for Query 1 here - e.g., images/query1_monthly_overview.png] -->`
-
-2.  **Query 02: Bounce Rate by Traffic Source (July 2017)**
-    *   **Suggested Chart Type:** Two Horizontal Bar Charts.
-        *   Chart 1: `total_visits` by `source`.
-        *   Chart 2: `bounce_rate` by `source` (Sorted by `total_visits` descending for easy comparison).
-    *   **Purpose:** Identify which traffic sources bring the most visits and which have high/low bounce rates.
-    *   `<!-- [Insert image: Total Visits by Source chart for Query 2 here - e.g., images/query2_visits_by_source.png] -->`
-    *   `<!-- [Insert image: Bounce Rate by Source chart for Query 2 here - e.g., images/query2_bounce_rate_by_source.png] -->`
-
-3.  **Query 03: Revenue by Traffic Source (June 2017 - Monthly & Weekly)**
-    *   **Suggested Chart Type:**
-        *   For `time_type = 'Month'`: Horizontal Bar Chart showing `revenue` by `source`.
-        *   For `time_type = 'Week'`: If there are many weeks and sources, consider a Line Chart with each line representing a `source` across weeks, or a Stacked Bar Chart for each week, with segments representing revenue from different `source`s. (Based on your output, weekly data might not be detailed enough for complex charts; a summary table or simple bar chart for the week with the highest revenue from a particular source might be suitable).
-    *   **Purpose:** Identify top revenue-generating traffic sources.
-    *   `<!-- [Insert image: Monthly Revenue by Source chart for Query 3 here - e.g., images/query3_monthly_revenue_by_source.png] -->`
-    *   (If you visualize weekly data) `<!-- [Insert image: Weekly Revenue Insights chart for Query 3 here - e.g., images/query3_weekly_revenue.png] -->`
-
-4.  **Query 04: Average Pageviews by User Type (June, July 2017)**
-    *   **Suggested Chart Type:** Grouped Bar Chart.
-        *   X-axis: Month (201706, 201707).
-        *   Y-axis: `avg_pageviews`.
-        *   Two groups of bars for each month: `avg_pageviews_purchasers` and `avg_pageviews_non_purchasers`.
-    *   **Purpose:** Compare engagement levels (pageviews) between purchasers and non-purchasers.
-    *   `<!-- [Insert image: Avg Pageviews by User Type chart for Query 4 here - e.g., images/query4_avg_pageviews_user_type.png] -->`
-
-5.  **Query 05: Average Transactions per Purchasing User (July 2017)**
-    *   **Suggested Chart Type:** This is a single metric. It can be presented as a "Metric Card" or highlighted text. No complex chart needed.
-    *   **Purpose:** Understand the purchase frequency of a typical customer.
-    *   *(No chart image needed, but you can insert the query output image in the Insights section)*
-
-6.  **Query 06: Average Amount Spent per Session (July 2017 - Purchasers)**
-    *   **Suggested Chart Type:** Similar to Query 5, this is a single metric. Present as a "Metric Card" or text.
-    *   **Purpose:** Assess the average value of each purchasing session.
-    *   *(No chart image needed, but you can insert the query output image in the Insights section)*
-
-7.  **Query 07: Other Products Purchased with "YouTube Men's Vintage Henley" (July 2017)**
-    *   **Suggested Chart Type:** Horizontal Bar Chart.
-        *   Y-axis: `other_purchased_product`.
-        *   X-axis: `quantity`.
-    *   **Purpose:** Discover frequently co-purchased items, suggesting cross-selling opportunities.
-    *   `<!-- [Insert image: Co-purchased Products chart for Query 7 here - e.g., images/query7_co_purchased_products.png] -->`
-
-8.  **Query 08: Cohort Analysis (View -> AddToCart -> Purchase) (Jan, Feb, Mar 2017)**
-    *   **Suggested Chart Type:**
-        *   Ideally, 3 Funnel Charts, one for each month (Jan, Feb, Mar), showing `num_product_view` -> `num_add_to_cart` -> `num_purchase`.
-        *   Alternatively, a Line Chart with the X-axis as month, and two lines representing `add_to_cart_rate` and `purchase_rate` across months.
-    *   **Purpose:** Track conversion rates through the shopping funnel and their changes over time.
-    *   `<!-- [Insert image: Funnel Analysis or Conversion Rates chart for Query 8 here - e.g., images/query8_conversion_funnel.png] -->`
 
 ## Results & Analysis (Insights)
 **Query 01: Monthly Overview (Jan, Feb, Mar 2017)**
@@ -183,33 +123,18 @@ Based on the analysis above, here are some potential recommendations:
     *   The `bigquery-public-data.google_analytics_sample` dataset is public and can be queried directly in BigQuery.
 3.  **Executing Queries:**
     *   Open the Google BigQuery Console.
-    *   Write each SQL query (provided in the `/sql_queries` directory or below) into the query editor.
+    *   Copy and paste each SQL query from the /sql_queries directory into the query editor.
     *   Run each query to obtain the results.
     *   Export query results as needed for visualization or reporting purposes.
 
 ## SQL Queries
-<!-- You should create a directory, e.g., `sql_queries`, in your repo, and save each query to a separate .sql file (e.g., `query01.sql`, `query02.sql`, ...). Then, you can link to those files. -->
-<!-- Example:
-- [Query 01: Total Visits, Pageviews, Transactions](./sql_queries/query01.sql)
-- [Query 02: Bounce Rate by Traffic Source](./sql_queries/query02.sql)
-- ... and so on for the remaining queries
--->
-Below is a summary of the questions addressed by the SQL queries. The detailed SQL code for each query can be found in the `sql_queries/` directory of this repository. *(Please create this directory and place your .sql files there)*
+Below is a summary of the questions addressed by the SQL queries. The detailed SQL code for each query can be found in the `sql_queries/` directory of this repository.
 
-*   **Query 01:** Calculate total visit, pageview, transaction for Jan, Feb and March 2017.
-*   **Query 02:** Bounce rate per traffic source in July 2017.
-*   **Query 03:** Revenue by traffic source by week, by month in June 2017.
-*   **Query 04:** Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017.
-*   **Query 05:** Average number of transactions per user that made a purchase in July 2017.
-*   **Query 06:** Average amount of money spent per session. Only include purchaser data in July 2017.
-*   **Query 07:** Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017.
-*   **Query 08:** Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017.
-
----
-*(Optional: Add sections like "Contributing," "License," "Contact" if you wish)*
-
-<!--
-## Contact
-- Your Name - [your.email@example.com]
-- Project Link: [Link to your GitHub repo]
--->
+*   **Query 01:** Calculate total visit, pageview, transaction for Jan, Feb and March 2017 - [View SQL](./sql_queries/query01.sql)
+*   **Query 02:** Bounce rate per traffic source in July 2017 - [View SQL](./sql_queries/query02.sql)
+*   **Query 03:** Revenue by traffic source by week, by month in June 2017 - [View SQL](./sql_queries/query03.sql)
+*   **Query 04:** Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017 - [View SQL](./sql_queries/query04.sql)
+*   **Query 05:** Average number of transactions per user that made a purchase in July 2017 - [View SQL](./sql_queries/query05.sql)
+*   **Query 06:** Average amount of money spent per session. Only include purchaser data in July 2017 - [View SQL](./sql_queries/query06.sql)
+*   **Query 07:** Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017 - [View SQL](./sql_queries/query07.sql)
+*   **Query 08:** Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017 - [View SQL](./sql_queries/query08.sql)
