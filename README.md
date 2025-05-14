@@ -163,17 +163,17 @@ In the e-commerce domain, understanding customer behavior and website performanc
 ## Recommendations
 Based on the analysis above, here are some potential recommendations:
 1.  **Optimize Traffic Sources:**
-    *   Further analyze sources with high bounce rates (e.g., `youtube.com`) to improve landing page experience or traffic quality.
-    *   Invest in high-revenue generating channels like `dfa` and `mail.google.com` (based on June 2017 data). Investigate why organic search channels showed lower revenue during this period.
+    *   Reduce bounce rates by improving landing pages and traffic quality, especially for sources like youtube.com.
+    *   Increase investment in high-revenue channels such as dfa, mail.google.com, and direct traffic.
 2.  **Enhance User Experience:**
-    *   Investigate why non-purchasers view significantly more pages (if the insight from Query 4 is accurate after review). They might be struggling with navigation, product discovery, or a complex checkout process. Simplifying the user flow could boost conversions.
-    *   Maintain and enhance factors that contributed to the increased add-to-cart and purchase rates seen in Q1 2017.
-3.  **Product and Sales Strategy:**
-    *   Leverage information on frequently co-purchased items (Query 7) to create "cross-selling" recommendations (e.g., "Customers who bought X also bought Y") on product pages or in the cart.
-    *   Consider promotional bundles based on popular product pairings.
+    *   Simplify navigation and the purchase process to convert browsers into buyers, particularly non-purchasers who view many pages.
+    *   Maintain factors that contributed to higher add-to-cart and purchase rates in Q1 2017.
+3.  **Product & Sales Strategy:**
+    *   Implement cross-selling strategies based on co-purchase data (e.g., Google Sunglasses with apparel).
+    *   Create promotional bundles from popular product pairings to increase average order value.
 4.  **Continuous Monitoring and Analysis:**
-    *   Metrics like average revenue per session and average transactions per user are key KPIs that should be monitored regularly to assess business performance.
-    *   Continue tracking the conversion funnel (view -> add to cart -> purchase) to quickly identify bottlenecks and improvement opportunities.
+    *   Regularly track key metrics such as average revenue per session and average transactions per buyer.
+    *   Continuously optimize the conversion funnel from product view to purchase to improve sales performance.
 
 ## Setup and Usage
 1.  **Requirements:**
@@ -183,8 +183,9 @@ Based on the analysis above, here are some potential recommendations:
     *   The `bigquery-public-data.google_analytics_sample` dataset is public and can be queried directly in BigQuery.
 3.  **Executing Queries:**
     *   Open the Google BigQuery Console.
-    *   Copy and paste each SQL query (provided in the `/sql_queries` directory or below) into the query editor.
-    *   Run the query to see the results.
+    *   Write each SQL query (provided in the `/sql_queries` directory or below) into the query editor.
+    *   Run each query to obtain the results.
+    *   Export query results as needed for visualization or reporting purposes.
 
 ## SQL Queries
 <!-- You should create a directory, e.g., `sql_queries`, in your repo, and save each query to a separate .sql file (e.g., `query01.sql`, `query02.sql`, ...). Then, you can link to those files. -->
@@ -208,12 +209,6 @@ Below is a summary of the questions addressed by the SQL queries. The detailed S
 *(Optional: Add sections like "Contributing," "License," "Contact" if you wish)*
 
 <!--
-## Contributing
-If you have ideas for improving this project, please feel free to create a Pull Request or open an Issue.
-
-## License
-This project is licensed under the MIT License - see the `LICENSE` file (if present) for details.
-
 ## Contact
 - Your Name - [your.email@example.com]
 - Project Link: [Link to your GitHub repo]
