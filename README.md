@@ -59,7 +59,11 @@ In the e-commerce domain, understanding customer behavior and website performanc
 *   **Insight 3:** YouTube traffic has high bounce, suggesting landing page optimization needed.
 
 **Query 03: Revenue by Traffic Source (June 2017)**
+
 ![image](https://github.com/user-attachments/assets/11e68b6d-bc95-4783-b2bc-0f9d9b6c4c7a)
+
+
+
 
 *   **Insight 1:** The direct traffic source generates the highest revenue by a large margin (~97,333.62 units), significantly outperforming all other sources in June 2017.
 *   **Insight 2:** Google organic traffic is the second-highest revenue source (~18,757.18 units), followed by dfa (~8,862.23 units) and mail.google.com (~2,563.13 units).
