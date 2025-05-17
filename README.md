@@ -1,7 +1,8 @@
-📊 **Project Title:** Ecommerce Analytics with SQL on BigQuery
-**Author:** Nguyen Thi Thuy Dung
-**Date:** 2025-03
-**Tools Used:** SQL (Google BigQuery)
+# 📊 **Project Title:** Ecommerce Analytics with SQL on BigQuery
+
+* **Author:** Nguyen Thi Thuy Dung
+* **Date:** 2025-03
+* **Tools Used:** SQL (Google BigQuery)
 
 ---
 
