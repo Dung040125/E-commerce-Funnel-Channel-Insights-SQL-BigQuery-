@@ -76,7 +76,7 @@ Key data preparation steps embedded within the SQL queries included:
 *   **SQL Script:** [`query01.sql`](./sql_queries/query01.sql)
 *   **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/748f8722-7193-4050-a08a-4bc5c36142a9" alt="Query 01 Output: Monthly Overview" width="600">
+      <img src="https://github.com/user-attachments/assets/748f8722-7193-4050-a08a-4bc5c36142a9" alt="Query 01 Output: Monthly Overview" width="800">
     </p>
 *   **Findings:** Visits & pageviews were stable; **transactions increased, peaking in March**, indicating improved conversion rates.
 
@@ -85,7 +85,7 @@ Key data preparation steps embedded within the SQL queries included:
 *   **SQL Script:** [`query02.sql`](./sql_queries/query02.sql)
 *   **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/ec7d273d-135e-4e4f-a3bf-6a702ef4c788" alt="Query 02 Output: Bounce Rate by Source" width="600">
+      <img src="https://github.com/user-attachments/assets/ec7d273d-135e-4e4f-a3bf-6a702ef4c788" alt="Query 02 Output: Bounce Rate by Source" width="800">
     </p>
 *   **Findings:** Google drove most traffic (moderate bounce rate); **Direct traffic showed higher engagement** (lower bounce rate); YouTube traffic had a high bounce rate.
 
