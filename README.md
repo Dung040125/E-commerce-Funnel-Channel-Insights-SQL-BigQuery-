@@ -139,7 +139,7 @@ Key data preparation steps embedded within the SQL queries included:
 *   **SQL Script:** [`query08.sql`](./sql_queries/query08.sql)
 *   **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/27cfc740-5739-4468-91a9-a3e8408a9257" alt="Query 08 Output: Purchase Funnel" width="600">
+      <img src="https://github.com/user-attachments/assets/27cfc740-5739-4468-91a9-a3e8408a9257" alt="Query 08 Output: Purchase Funnel" width="800">
     </p>
 *   **Findings:** **Add-to-cart and purchase rates steadily improved** from January to March, indicating increased conversion effectiveness.
 
