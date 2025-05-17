@@ -1,9 +1,3 @@
-<!-- UNIGAP - PORTFOLIO BUILDING MODULE - SQL/ PYTHON PROJECT -->
-<!-- 🔥Use this template as an outline for your SQL/ Python Github projects - which is task by task type of projects. Make a copy of this readme file and tailor it your own. Happy portfolio-ing and start applying aggressively :")) -->
-
-<!-- KPMG Transaction Analysis -->
-<!-- 👉🏻Change Icon emoji 🔥🔍📘🚩 to your likings by clicking "Start" + "." -->
-
 📊 **Project Title:** Ecommerce Analytics with SQL on BigQuery
 **Author:** Nguyen Thi Thuy Dung
 **Date:** 2025-03
@@ -11,7 +5,7 @@
 
 ---
 
-📑 ## Table of Contents
+## 📑 Table of Contents
 - [📌 Background & Overview](#-background--overview)
 - [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
 - [⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#️-main-process-data-preparation-sql-analysis--insights)
@@ -20,7 +14,7 @@
 
 ---
 
-📌 ## Background & Overview
+## 📌 Background & Overview
 
 ### Objective
 📖 **What is this project about? What Business Questions will it solve?**
@@ -45,7 +39,7 @@ The project aims to answer critical business questions, including:
 
 ---
 
-📂 ## Dataset Description & Data Structure
+## 📂 Dataset Description & Data Structure
 
 📌 **Data Source**
 *   **Source:** Google Analytics Sample Dataset on Google BigQuery (Public dataset from the Google Merchandise Store).
@@ -60,7 +54,7 @@ The project aims to answer critical business questions, including:
 
 ---
 
-⚒️ ## Main Process: Data Preparation, SQL Analysis & Insights
+## ⚒️ Main Process: Data Preparation, SQL Analysis & Insights
 
 This project involved key data preparation and analysis steps performed directly via SQL queries in Google BigQuery. Detailed SQL scripts for each task are available in the `/sql_queries` directory.
 
@@ -148,7 +142,7 @@ Key data preparation steps embedded within the SQL queries included:
 
 ---
 
-🔎 ## Final Conclusion & Recommendations
+## 🔎 Final Conclusion & Recommendations
 👉🏻 Based on the insights and findings from the SQL queries, the following actions are recommended for the e-commerce and marketing teams:
 
 📌 **Key Takeaways & Recommendations:**
@@ -159,7 +153,7 @@ Key data preparation steps embedded within the SQL queries included:
 
 ---
 
-📂 ## Project Files & Setup
+## 📂 Project Files & Setup
 
 1.  **SQL Queries:**
     *   All SQL scripts used for analysis are located in the `/sql_queries` directory.
