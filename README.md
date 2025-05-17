@@ -9,11 +9,11 @@
 ---
 
 ## 📑 Table of Contents
-- [📌 Background & Overview](#-background--overview)
-- [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
-- [⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#️-main-process-data-preparation-sql-analysis--insights)
-- [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
-- [📂 Project Files & Setup](#-project-files--setup)
+- [📌 Background & Overview](#background--overview)
+- [📂 Dataset Description & Data Structure](#dataset-description--data-structure)
+- [⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#main-process-data-preparation-sql-analysis--insights)
+- [🔎 Final Conclusion & Recommendations](#final-conclusion--recommendations)
+- [📂 Project Files & Setup](#project-files--setup)
 
 ---
 
@@ -112,7 +112,7 @@ Key data preparation steps embedded within the SQL queries included:
 *   **SQL Script:** [`query05.sql`](./sql_queries/query05.sql)
 *   **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/c1ab0eb2-a7f4-41b9-a024-06da08674460" alt="Query 05 Output: Avg Transactions per User" width="400">
+      <img src="https://github.com/user-attachments/assets/c1ab0eb2-a7f4-41b9-a024-06da08674460" alt="Query 05 Output: Avg Transactions per User" width="600">
     </p>
 *   **Findings:** Purchasing users averaged **over four transactions**, indicating strong engagement.
 
@@ -121,7 +121,7 @@ Key data preparation steps embedded within the SQL queries included:
 *   **SQL Script:** [`query06.sql`](./sql_queries/query06.sql)
 *   **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/a489be89-d309-49e5-9f8e-5548526a4936" alt="Query 06 Output: Avg Revenue per Session" width="400">
+      <img src="https://github.com/user-attachments/assets/a489be89-d309-49e5-9f8e-5548526a4936" alt="Query 06 Output: Avg Revenue per Session" width="600">
     </p>
 *   **Findings:** Each purchasing session generated approximately **43.86 units in revenue**.
 
