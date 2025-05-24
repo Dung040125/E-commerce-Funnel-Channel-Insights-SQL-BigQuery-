@@ -1,4 +1,5 @@
---Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
+--Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. 
+--Output should show product name and the quantity was ordered.
 WITH buyer_list AS (
   SELECT DISTINCT fullVisitorId
   FROM `bigquery-public-data.google_analytics_sample.ga_sessions_201707*`,
