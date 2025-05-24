@@ -128,7 +128,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To compare the average number of **pageviews** for users who made a purchase versus those who didn't. This helps understand different browsing behaviors: purchasers might find what they need more efficiently, while non-purchasers might be exploring more broadly or encountering friction. This insight can inform **user experience** improvements.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/97bb4523-27be-446d-b230-9b881128a316" alt="SQL Code Preview for Task 04" width="700">
+      <img src="https://github.com/user-attachments/assets/97bb4523-27be-446d-b230-9b881128a316" alt="SQL Code Preview for Task 04" width="800">
     </p>
 
 *   🖼️ **Result Snapshot:**
@@ -145,7 +145,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To calculate the average number of **transactions** made by users who completed at least one purchase. This metric indicates customer loyalty or repeat purchase frequency, an important aspect of **customer lifetime value**.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/bf345c26-81f6-477e-b21e-69aaa9b3aea4" alt="SQL Code Preview for Task 05" width="700">
+      <img src="https://github.com/user-attachments/assets/bf345c26-81f6-477e-b21e-69aaa9b3aea4" alt="SQL Code Preview for Task 05" width="800">
     </p>
 
 *   🖼️ **Result Snapshot:**
@@ -162,7 +162,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To determine the average **revenue** generated per session for users who made a purchase. This helps quantify the monetary value of a converting session and can inform ROI calculations for marketing efforts.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/5d769ea2-ceb7-4f49-bbda-09f5b2fde9a1" alt="SQL Code Preview for Task 06" width="700">
+      <img src="https://github.com/user-attachments/assets/5d769ea2-ceb7-4f49-bbda-09f5b2fde9a1" alt="SQL Code Preview for Task 06" width="800">
     </p>
 
 *   🖼️ **Result Snapshot:**
@@ -179,7 +179,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To identify products frequently bought together (a basic form of market basket analysis). This is valuable for uncovering **cross-selling** or **bundling** opportunities, which can increase the average order value.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/103e4515-5d7d-44ee-9c7d-345dad341e33" alt="SQL Code Preview for Task 07" width="700">
+      <img src="https://github.com/user-attachments/assets/103e4515-5d7d-44ee-9c7d-345dad341e33" alt="SQL Code Preview for Task 07" width="900">
     </p>
 
 *   🖼️ **Result Snapshot:**
