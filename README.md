@@ -83,7 +83,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/748f8722-7193-4050-a08a-4bc5c36142a9" alt="Query 01 Output: Monthly Overview" width="800">
     </p>
-*   💡 **Key Findings:** **Visits** & **pageviews** were stable; **transactions increased, peaking in March**, indicating improved **conversion rates**.
+*   💡 **Visits** & **pageviews** were stable; **transactions increased, peaking in March**, indicating improved **conversion rates**.
 
 ---
 
@@ -101,7 +101,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/ec7d273d-135e-4e4f-a3bf-6a702ef4c788" alt="Query 02 Output: Bounce Rate by Source" width="800">
     </p>
-*   💡 **Key Findings:** Google drove most traffic (moderate **bounce rate**); **Direct traffic** showed **higher engagement** (lower bounce rate); YouTube traffic had a high **bounce rate**.
+*   💡 Google drove most traffic (moderate **bounce rate**); **Direct traffic** showed **higher engagement** (lower bounce rate); YouTube traffic had a high **bounce rate**.
 
 ---
 
@@ -118,7 +118,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/11e68b6d-bc95-4783-b2bc-0f9d9b6c4c7a" alt="Query 03 Output: Revenue by Source" width="600">
     </p>
-*   💡 **Key Findings:** **`(direct)` traffic** was the **highest revenue generator**. Google organic, `dfa`, and `mail.google.com` also contributed significantly.
+*   💡 **`(direct)` traffic** was the **highest revenue generator**. Google organic, `dfa`, and `mail.google.com` also contributed significantly.
 
 ---
 
@@ -135,7 +135,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/b78b124d-ffa8-46e1-85ba-64138b6d16d5" alt="Query 04 Output: Avg Pageviews by User Type" width="600">
     </p>
-*   💡 **Key Findings:** **Non-purchasers** viewed significantly more **pages** than **purchasers**, suggesting different browsing behaviors or potential navigation challenges.
+*   💡 **Non-purchasers** viewed significantly more **pages** than **purchasers**, suggesting different browsing behaviors or potential navigation challenges.
 
 ---
 
@@ -152,7 +152,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/c1ab0eb2-a7f4-41b9-a024-06da08674460" alt="Query 05 Output: Avg Transactions per User" width="600">
     </p>
-*   💡 **Key Findings:** Purchasing users averaged **over four transactions**, indicating strong **engagement**.
+*   💡 Purchasing users averaged **over four transactions**, indicating strong **engagement**.
 
 ---
 
@@ -169,7 +169,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/a489be89-d309-49e5-9f8e-5548526a4936" alt="Query 06 Output: Avg Revenue per Session" width="600">
     </p>
-*   💡 **Key Findings:** Each purchasing session generated approximately **43.86 units in revenue**.
+*   💡 Each purchasing session generated approximately **43.86 units in revenue**.
 
 ---
 
@@ -186,7 +186,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/434ed1dd-a054-42b4-9fe4-05b14e174ac0" alt="Query 07 Output: Co-purchased Products" width="600">
     </p>
-*   💡 **Key Findings:** "**Google Sunglasses**" were most frequently co-purchased, suggesting **bundling potential**.
+*   💡 "**Google Sunglasses**" were most frequently co-purchased, suggesting **bundling potential**.
 
 ---
 
@@ -207,7 +207,7 @@ This section details the specific SQL analyses performed to answer the business 
     <p align="center">
       <img src="https://github.com/user-attachments/assets/27cfc740-5739-4468-91a9-a3e8408a9257" alt="Query 08 Output: Purchase Funnel" width="1000">
     </p>
-*   💡 **Key Findings:** **Add-to-cart** and **purchase rates** steadily **improved** from January to March, indicating increased **conversion effectiveness**.
+*   💡 **Add-to-cart** and **purchase rates** steadily **improved** from January to March, indicating increased **conversion effectiveness**.
 
 ---
 
