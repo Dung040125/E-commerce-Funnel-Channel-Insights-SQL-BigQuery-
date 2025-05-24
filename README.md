@@ -179,7 +179,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To identify products frequently bought together (a basic form of market basket analysis). This is valuable for uncovering **cross-selling** or **bundling** opportunities, which can increase the average order value.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/103e4515-5d7d-44ee-9c7d-345dad341e33" alt="SQL Code Preview for Task 07" width="1000">
+      <img src="https://github.com/user-attachments/assets/f0b8da05-44e9-4176-9e78-10f8d818533e" alt="SQL Code Preview for Task 07" width="900">
     </p>
 
 *   🖼️ **Result Snapshot:**
