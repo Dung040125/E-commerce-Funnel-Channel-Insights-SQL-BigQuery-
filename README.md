@@ -12,7 +12,7 @@
 - [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
 - [⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#%EF%B8%8F-main-process-data-preparation-sql-analysis--insights)
 - [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
-- [📂 Project Files & Setup](#-project-files--setup)
+- [🌟 Key Personal Takeaways](#-key-personal-takeaways)
 
 ---
 
@@ -221,18 +221,13 @@ This section details the specific SQL analyses performed to answer the business 
 *   ✔️ **Continuous Monitoring:** Regularly track key metrics (avg. revenue/session, transactions/user, conversion rates) for ongoing optimization.
 
 ---
+## 🌟 Key Personal Takeaways
 
-## 📂 Project Files & Setup
+This project was more than just SQL practice; it was a journey in refining analytical thinking:
 
-1.  **SQL Queries:**
-    *   All SQL scripts used for analysis are located in the `/sql_queries` directory.
-    *   Each task above links directly to its corresponding SQL script (e.g., [`query01.sql`](./sql_queries/query01.sql)).
-2.  **Setup Requirements:**
-    *   Google Cloud Platform (GCP) Account.
-    *   Access to Google BigQuery.
-3.  **Accessing the Dataset:**
-    *   The `bigquery-public-data.google_analytics_sample` dataset is public and can be queried directly in BigQuery.
-4.  **Executing Queries:**
-    *   Open the Google BigQuery Console.
-    *   Copy and paste the SQL code from the respective file in the `/sql_queries` directory into the query editor.
-    *   Run the query to obtain results.
+*   **Structuring Ambiguity:** Sharpened my ability to translate often ambiguous **business questions** into clear, **data-driven insights**.
+*   **Thinking in Flows:** Working with **nested data** in BigQuery (especially user session data) pushed me to think in terms of user flows and journeys—how users move, **convert**, and interact across channels—rather than isolated data points.
+*   **Connecting Data to Decisions:** Most importantly, this project trained me to constantly ask "So what?" – to bridge the gap between raw numbers, meaningful insights, and ultimately, actionable **business decisions**.
+*   **Strategic Data Application:** Beyond technical confidence with SQL and BigQuery, I developed a stronger sense of how data directly supports **strategy formulation** and drives concrete actions.
+
+---
