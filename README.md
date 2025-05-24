@@ -197,7 +197,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To analyze **conversion rates** at each key step of the **customer journey**. This helps identify drop-off points (bottlenecks) in the **funnel** and measure the impact of any changes or marketing efforts on **conversion** effectiveness over time.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/ee02243c-db49-4c33-8e80-54fe1c5b59c7" alt="SQL Code Preview for Task 08 (Part 1)" width="1000">
+      <img src="https://github.com/user-attachments/assets/ee02243c-db49-4c33-8e80-54fe1c5b59c7" alt="SQL Code Preview for Task 08 (Part 1)" width="900">
     </p>
     <p align="center">
       <img src="https://github.com/user-attachments/assets/6ed66208-6c51-435b-aeca-a0b55dcef11c" alt="SQL Code Preview for Task 08 (Part 2)" width="900">
