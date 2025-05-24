@@ -179,7 +179,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To identify products frequently bought together (a basic form of market basket analysis). This is valuable for uncovering **cross-selling** or **bundling** opportunities, which can increase the average order value.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/103e4515-5d7d-44ee-9c7d-345dad341e33" alt="SQL Code Preview for Task 07" width="900">
+      <img src="https://github.com/user-attachments/assets/103e4515-5d7d-44ee-9c7d-345dad341e33" alt="SQL Code Preview for Task 07" width="1000">
     </p>
 
 *   🖼️ **Result Snapshot:**
@@ -197,7 +197,7 @@ This section details the specific SQL analyses performed to answer the business 
     *   *Purpose:* To analyze **conversion rates** at each key step of the **customer journey**. This helps identify drop-off points (bottlenecks) in the **funnel** and measure the impact of any changes or marketing efforts on **conversion** effectiveness over time.
 *   📄 **SQL Code Preview:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/a7e1c752-bd49-45a5-b3b1-c27a0025a182" alt="SQL Code Preview for Task 08 (Part 1)" width="1000">
+      <img src="https://github.com/user-attachments/assets/ee02243c-db49-4c33-8e80-54fe1c5b59c7" alt="SQL Code Preview for Task 08 (Part 1)" width="1000">
     </p>
     <p align="center">
       <img src="https://github.com/user-attachments/assets/6ed66208-6c51-435b-aeca-a0b55dcef11c" alt="SQL Code Preview for Task 08 (Part 2)" width="900">
