@@ -1,4 +1,4 @@
-# 📊 **Project Title:** E-commerce Website Insights (SQL – BigQuery)
+# 📊 **E-commerce Funnel & Channel Insights (SQL – BigQuery)**
 ![image](https://github.com/user-attachments/assets/efa5122d-5aa7-4718-84e4-e2922e9f8418)
 
 
