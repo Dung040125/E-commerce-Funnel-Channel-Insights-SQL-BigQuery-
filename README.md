@@ -21,17 +21,13 @@
 ### Objective
 📖 **What is this project about? What Business Questions will it solve?**
 
-This project is a hands-on SQL exercise utilizing the Google Analytics sample dataset on BigQuery. The primary goal is to extract key e-commerce insights to help business managers better understand customer journeys and optimize operations.
+This project provides **e-commerce analytics** insights from Google Analytics data (using SQL) to drive **marketing optimization** and inform business strategy.
 
-The project aims to answer critical business questions, including:
-*   How do key metrics like website visits, pageviews, and transactions trend monthly?
-*   What is the bounce rate per traffic source, and which sources are most/least effective?
-*   How does revenue vary by traffic source, both weekly and monthly?
-*   What are the differences in browsing behavior (average pageviews) between purchasers and non-purchasers?
-*   For purchasing users, what is their average number of transactions?
-*   What is the average revenue generated per session for purchasing users?
-*   Which products are frequently purchased together, indicating cross-selling opportunities?
-*   How do customers progress through the purchasing funnel (view → add to cart → purchase), and what are the conversion rates?
+It answers key questions like:
+
+*   **Performance & Traffic:** How do website metrics and traffic sources impact revenue and engagement?
+*   **Customer & Conversion:** How does user behavior influence conversions, and how can the sales funnel be improved?
+*   **Sales & Opportunities:** What are key sales trends and potential cross-selling opportunities?
 
 👤 **Who is this project for?**
 *   Data Analysts & Business Analysts
