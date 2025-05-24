@@ -184,7 +184,7 @@ This section details the specific SQL analyses performed to answer the business 
 
 *   🖼️ **Result Snapshot:**
     <p align="center">
-      <img src="https://github.com/user-attachments/assets/434ed1dd-a054-42b4-9fe4-05b14e174ac0" alt="Query 07 Output: Co-purchased Products" width="600">
+      <img src="https://github.com/user-attachments/assets/479b9231-9f8a-416f-892d-fa1c08be89c2" alt="Query 07 Output: Co-purchased Products" width="700">
     </p>
 *   💡 "**Google Sunglasses**" were most frequently co-purchased, suggesting **bundling potential**.
 
