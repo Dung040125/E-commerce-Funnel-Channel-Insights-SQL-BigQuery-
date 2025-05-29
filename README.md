@@ -8,11 +8,11 @@
 ---
 
 ## 📑 Table of Contents
-- [📌 Background & Overview](#-background--overview)
-- [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
-- [⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#%EF%B8%8F-main-process-data-preparation-sql-analysis--insights)
-- [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
-- [🌟 Key Personal Takeaways](#-key-personal-takeaways)
+[📌 Background & Overview](#-background--overview)  
+[📂 Dataset Description & Data Structure](#-dataset-description--data-structure)  
+[⚒️ Main Process: Data Preparation, SQL Analysis & Insights](#%EF%B8%8F-main-process-data-preparation-sql-analysis--insights)  
+[🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)  
+[🌟 Key Personal Takeaways](#-key-personal-takeaways)
 
 ---
 
