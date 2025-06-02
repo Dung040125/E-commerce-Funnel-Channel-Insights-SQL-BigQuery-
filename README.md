@@ -69,7 +69,7 @@ Key data preparation steps embedded within the SQL queries included:
 
 This section details the specific SQL analyses performed to answer the business questions outlined in the **[📌 Background & Overview](#-background--overview)**.
 
-### Task 01: Monthly Overview (Jan, Feb, Mar 2017)**
+#### Task 01: Monthly Overview (Jan, Feb, Mar 2017)**
 *   🎯 **Business Context & Analytical Purpose:**
     *   *Answers:* "**Performance & Traffic:** How do website metrics and traffic sources impact revenue and engagement?"
     *   *Purpose:* To track core metrics like total **visits**, **pageviews**, and **transactions** on a monthly basis. This provides a high-level view of website health and performance for Q1 2017, indicating trends in user interaction and **conversion** capabilities.
