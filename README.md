@@ -31,9 +31,8 @@ It answers key questions like:
 
 👤 **Who is this project for?**
 *   Data Analysts & Business Analysts
-*   E-commerce Managers & Strategists
+*   E-commerce Managers & Stakeholders interested in e-commerce performance
 *   Marketing Professionals
-*   Decision-makers & Stakeholders interested in e-commerce performance.
 
 ---
 
