@@ -69,10 +69,8 @@ Key data preparation steps embedded within the SQL queries included:
 
 This section details the specific SQL analyses performed to answer the business questions outlined in the **[📌 Background & Overview](#-background--overview)**.
 
-### Task 01: Monthly Overview (Jan, Feb, Mar 2017)
-*   🎯 **Business Context & Analytical Purpose:**
-    *   *Answers:* "**Performance & Traffic:** How do website metrics and traffic sources impact revenue and engagement?"
-    *   *Purpose:* To track core metrics like total **visits**, **pageviews**, and **transactions** on a monthly basis. This provides a high-level view of website health and performance for Q1 2017, indicating trends in user interaction and **conversion** capabilities.
+### Task 01: Calculate total visits, pageviews, and transactions by month (Jan–Mar 2017)
+*   This provides a high-level view of website health and performance for Q1 2017, indicating trends in user interaction and **conversion** capabilities.
 *   📄 **SQL Code:**
     ```sql
     -- Query 01: Calculate total visits, pageviews, and transactions by month (Jan–Mar 2017)
@@ -104,10 +102,8 @@ This section details the specific SQL analyses performed to answer the business 
 ---
 
 ## Task 02: Bounce Rate by Traffic Source (July 2017)
-*   🎯 **Business Context & Analytical Purpose:**
-    *   *Answers:* "**Performance & Traffic:** ...how do traffic sources impact ...engagement?"
-    *   *Term Definition:* **Bounce Rate** is the percentage of visitors who navigate away from the site after viewing only one page. A high bounce rate can indicate that the landing page content isn't relevant to visitors from a particular source, or that the user experience is poor.
-    *   *Purpose:* To determine **bounce rates** for different **traffic sources**. This helps identify which channels are bringing engaged users (low bounce rate) and which may require landing page or targeting optimization to improve **user engagement**.
+*   **Bounce Rate** is the percentage of visitors who navigate away from the site after viewing only one page. A high bounce rate can indicate that the landing page content isn't relevant to visitors from a particular source, or that the user experience is poor.
+*   This helps identify which channels are bringing engaged users (low bounce rate) and which may require landing page or targeting optimization to improve **user engagement**.
 *   📄 **SQL Code:**
     ```sql
     -- Query 02: Calculate bounce rate per traffic source for July 2017
@@ -129,7 +125,7 @@ This section details the specific SQL analyses performed to answer the business 
     ORDER BY total_visits DESC;
     ```
 
-*   🖼️ **Result Snapshot:**
+*   🖼️ **Result:**
     <p align="center">
       <img src="https://github.com/user-attachments/assets/ec7d273d-135e-4e4f-a3bf-6a702ef4c788" alt="Query 02 Output: Bounce Rate by Source" width="800">
     </p>
@@ -180,7 +176,7 @@ This section details the specific SQL analyses performed to answer the business 
     ORDER BY time_type, time;
     ```
 
-*   🖼️ **Result Snapshot:**
+
     <p align="center">
       <img src="https://github.com/user-attachments/assets/11e68b6d-bc95-4783-b2bc-0f9d9b6c4c7a" alt="Query 03 Output: Revenue by Source" width="600">
     </p>
